@@ -14,7 +14,8 @@ public class MaxString {
 
 	     for(int i=0; i<str.length(); i++) {
 	         String next = str.substring(i);
-	         if(next.compareTo(maxVal) > 0) maxVal = next;
+	         if(next.compareTo(maxVal) > 0) 
+	        	 maxVal = next;
 	     }
 	     return maxVal;
 	}
@@ -24,7 +25,7 @@ public class MaxString {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		System.out.println(maxSub("bbb"));
+		System.out.println(maxSub("banana"));
 
 	}
 
