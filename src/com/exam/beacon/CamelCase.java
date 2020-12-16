@@ -18,7 +18,9 @@ public class CamelCase {
 	}
 	public static boolean camelCase(String words[], String key) {
 		int count=0;
-	//	List<String> t=Arrays.asList(words).stream().map((w)->w.substring(0, 1).toUpperCase() + w.substring(1)).collect(Collectors.toList());
+		//List<String> t=Arrays.asList(words).stream()
+			//								.map((w)->w.substring(0, 1).toUpperCase() + w.substring(1))
+				//							.collect(Collectors.toList());
 		List<String> t=Arrays.asList(words);
 		for(String str:splitWord(key))
 			if(t.contains(str)) count++;
